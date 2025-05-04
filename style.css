@@ -1,0 +1,76 @@
+.flower_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.leaf1,
+.leaf2,
+.leaf3,
+.leaf4,
+.leaf5,
+.leaf6 {
+  height: 50px;
+  width: 50px;
+  background: red;
+  position: absolute;
+  transform-origin: 25px 25px;
+  clip-path: polygon(
+    56% 8%,
+    81% 10%,
+    96% 35%,
+    91% 75%,
+    76% 90%,
+    59% 93%,
+    42% 90%,
+    0% 60%,
+    0% 40%,
+    33% 14%
+  );
+}
+
+.leaf1 {
+  transform: rotate(0deg) translateX(35px);
+}
+.leaf2 {
+  transform: rotate(60deg) translateX(35px);
+}
+.leaf3 {
+  transform: rotate(120deg) translateX(35px);
+}
+.leaf4 {
+  transform: rotate(180deg) translateX(35px);
+}
+.leaf5 {
+  transform: rotate(240deg) translateX(35px);
+}
+.leaf6 {
+  transform: rotate(300deg) translateX(35px);
+}
+
+.inside_block {
+  height: 50px;
+  width: 50px;
+  background: orange;
+  clip-path: circle(50% at 50% 50%);
+}
+
+/* .leaf1 {
+  height: 50px;
+  width: 50px;
+  background: red;
+  clip-path: polygon(
+    56% 8%,
+    80% 15%,
+    97% 41%,
+    95% 75%,
+    76% 90%,
+    59% 93%,
+    42% 90%,
+    0% 60%,
+    0% 40%,
+    33% 14%
+  );
+} */
