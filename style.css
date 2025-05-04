@@ -1,8 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .flower_head {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
 }
 
@@ -57,20 +65,10 @@
   clip-path: circle(50% at 50% 50%);
 }
 
-/* .leaf1 {
-  height: 50px;
-  width: 50px;
-  background: red;
-  clip-path: polygon(
-    56% 8%,
-    80% 15%,
-    97% 41%,
-    95% 75%,
-    76% 90%,
-    59% 93%,
-    42% 90%,
-    0% 60%,
-    0% 40%,
-    33% 14%
-  );
-} */
+.rod {
+  background: green;
+  height: 300px;
+  width: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
